@@ -1,11 +1,23 @@
 /*
 Input: 
-	n = number of question
-	t = time limit
-	marks[n] = marks for nth question
-	time[n] = time for nth question
+	n = number of question.
+	t = time limit.
+	marks[n] = marks for nth question.
+	time[n] = time for nth question.
+
 Output:
-	Display the maximum marks with total time within the time limit t
+	Display the maximum marks with total time within the time limit t.
+
+Example:
+	Input:
+		4 35
+		40 30 10 20
+		20 10 15 25
+	Output:
+		70
+	Explanation:
+		Maximum marks =	40 + 30
+		Time = 20 + 10
 */
 
 #include<iostream>
